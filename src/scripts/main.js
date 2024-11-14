@@ -364,7 +364,7 @@ if (people && Array.isArray(people)) {
     const { name: namePerson, born, died } = person;
     let { sex } = person;
 
-    sex = sex === 'm' ? (sex = 'Male') : (sex = 'Female');
+    sex = sex === 'm' ? 'Male' : 'Female';
 
     const row = document.createElement('tr');
     const rowInner = `
